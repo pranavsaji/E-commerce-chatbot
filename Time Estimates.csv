@@ -1,1 +1,15 @@
 Story,Task,Estimate min (hr),Estimate max (hr),Actual,Comment
+Project Setup,Initialize Git repository and project structure,1,2,1,Set up repository and directory layout
+Environment Setup,Create virtual environment and install dependencies,1,2,1,Setting up Python venv and installing requirements.txt
+Data Preprocessing,Develop preprocess.py for products and orders datasets,2,6,2,"Handle missing values, data normalization"
+Data Modeling,"Create Pydantic models (product_model.py, order_model.py)",1,3,1,Define data schemas for validation
+RAG Service,Implement rag_service.py for document embedding and retrieval,4,8,3,"Integrate SentenceTransformer, cosine similarity"
+Gemini Integration,Develop gemini_service.py for response generation,3,6,2,Set up Gemini API integration
+Business Logic,"Implement product_service.py, order_service.py, chatbot_service.py",6,8,4,Develop core functionalities for products and orders
+API Development,"Create FastAPI routers (products.py, orders.py, chatbot.py, healthcheck.py)",4,8,4,Develop endpoints for different functionalities
+User Interface,"Develop Streamlit interfaces (streamlit_orders.py, streamlit_products.py)",3,6,3,Create web interfaces for user interactions
+Testing,Write unit and integration tests (tests/ directory),2,4,2,Ensure code reliability and functionality
+Logging & Error Handling,Implement logger.py and robust error handling mechanisms,1,3,1,Set up logging and manage exceptions
+Configuration Management,Set up config.py and .env for environment variables,1,3,1,Manage configurations and sensitive data
+Documentation,Write comprehensive README.md and in-code documentation,3,4,2,Provide setup instructions and project overview
+Total Estimated Time,,,,27,
